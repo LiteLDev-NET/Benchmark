@@ -6,4 +6,6 @@ const getTick = ll.import("Benchmark", "GetTick");
 const startTime = getTick();
 for (let i = 0; i < EVENT_SUB_COUNT; ++i) mc.listen("onScoreChanged", () => {});
 const endTime = getTick();
-log(`QuickJS - Event subscribe*${EVENT_SUB_COUNT}: ${endTime - startTime}`);
+logger.debug(
+    `QuickJS - Event subscribe*${EVENT_SUB_COUNT}: ${endTime - startTime}`
+);
