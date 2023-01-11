@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark.NET", ".NET\Bench
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Benchmark.Native", "Native\Benchmark.Native.vcxproj", "{ABEB5558-C92F-473E-8BDF-90F58BD3811C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetTick", "GetTick\GetTick.csproj", "{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{ABEB5558-C92F-473E-8BDF-90F58BD3811C}.Release|Any CPU.Build.0 = Release|x64
 		{ABEB5558-C92F-473E-8BDF-90F58BD3811C}.Release|x64.ActiveCfg = Release|x64
 		{ABEB5558-C92F-473E-8BDF-90F58BD3811C}.Release|x64.Build.0 = Release|x64
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Debug|x64.Build.0 = Debug|Any CPU
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Release|x64.ActiveCfg = Release|Any CPU
+		{355AB9ED-40AD-4AAD-9E83-9362ABD353DA}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
